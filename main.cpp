@@ -190,16 +190,20 @@ void ejercicio4(int i,int j,int k,int l)
     //MODIFICAR
             //Archivos
     m =new int;
-   // in.read(char*)m,4);
+    in.seekg(i);
+    in.read((char*)m,4);
 
     n =new int;
-   // in.read(char*)n,4);
+    in.seekg(j);
+    in.read((char*)n,4);
 
     o =new int;
-   // in.read(char*)o,4);
+    in.seekg(k);
+    in.read((char*)o,4);
 
     p =new int;
-   // in.read(char*)o,4);
+    in.seekg(l);
+    in.read((char*)p,4);
 
 
     //FIN MODIFICAR
